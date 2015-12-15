@@ -1,5 +1,7 @@
 import javax.swing.JFrame;
 public class WonderlandDriver
+/*Jackson Borneman
+sets up frame for Wonderland Project*/
 {
    public static void main(String[] args)
    {

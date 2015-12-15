@@ -3,7 +3,7 @@ import java.awt.*;
 import java.util.Random;
 /*Jackson Borneman
 This Draws a Chrismas card that is anamated and different from the last time it was run*/
-public class WonderlandPanel extends JPanel implements Runnable
+public class WonderlandPanel extends JPanel
 {
    final int N = 800;
    int a = 0;

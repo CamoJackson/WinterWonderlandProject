@@ -1,7 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
 import java.util.Random;
-
+/*Jackson Borneman
+This Draws a Chrismas card that is anamated and different from the last time it was run*/
 public class WonderlandPanel extends JPanel implements Runnable
 {
    final int N = 800;
@@ -77,7 +78,7 @@ public class WonderlandPanel extends JPanel implements Runnable
       }
       
       ImageIcon Star = new ImageIcon("Star.png");
-      g.drawImage(Star.getImage(), 309, 0, 200, 150, null); //Draws Stars
+      g.drawImage(Star.getImage(), 309, 0, 200, 150, null); //Draws Star
       
       /*int lineInterval = N / 10;
       g.setColor(Color.RED);
